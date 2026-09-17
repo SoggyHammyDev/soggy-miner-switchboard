@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: soggy-miner-switchboard
+category: bitcoin
+name: Soggy Miner Switchboard
+version: "0.1.0"
+tagline: Route Stratum miners to pools on the fly
+icon: https://raw.githubusercontent.com/SoggyHammyDev/soggy-miner-switchboard/main/soggy-miner-switchboard/icon.svg
+description: >-
+  A local Stratum V1 switchboard for Umbrel. Configure miners once to point at
+  the Switchboard, then change each miner's upstream pool from a dashboard
+  without rebooting the ASIC. Initial MVP routes by miner LAN IP.
+developer: SoggyHammyDev
+website: https://github.com/SoggyHammyDev/soggy-miner-switchboard
+repo: https://github.com/SoggyHammyDev/soggy-miner-switchboard
+support: https://github.com/SoggyHammyDev/soggy-miner-switchboard/issues
+port: 3291
+gallery: []
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: "Initial MVP with per-miner IP routing, pool presets, live sessions, and on-the-fly upstream switching."
+submitter: SoggyHammyDev
